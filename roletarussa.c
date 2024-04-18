@@ -47,7 +47,7 @@ int main() {
 
         // Condição de vitória
         if (rodadas >= TAMANHO_REVOLVER - 1) {
-            printf("Você chegou às duas últimas rodadas! Deseja atirar? (s/n): ");
+            printf("Você chegou às duas últimas rodadas! Deseja atirar? (s/n): \n");
             char escolha;
             scanf(" %c", &escolha);
 
@@ -61,10 +61,11 @@ int main() {
                 }
             } else if (escolha == 'n')
             {
-                printf("Você optou por não atirar.\n");
-                printf("Fim de jogo! Você sobreviveu por %d rodadas.\n", rodadas);
-
+               printf("Você optou por não atirar.\n");
+               printf("Você saiu vivo mas não vai ganhar prêmio\n");
+               break;
             }
+
         }
     }
 
