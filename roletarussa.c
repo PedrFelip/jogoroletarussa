@@ -59,8 +59,11 @@ int main() {
                     printf("Parabéns! Você sobreviveu e ganhou o prêmio!\n");
                     break;
                 }
-            } else {
-                printf("Você optou por não atirar. O jogo continua...\n");
+            } else if (escolha == 'n')
+            {
+                printf("Você optou por não atirar.\n");
+                printf("Fim de jogo! Você sobreviveu por %d rodadas.\n", rodadas);
+
             }
         }
     }
