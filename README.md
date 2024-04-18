@@ -1,4 +1,4 @@
-# jogoroletarussa# Jogo de Roleta Russa em C
+#Jogo de Roleta Russa em C#
 
 Este é um simples jogo de Roleta Russa implementado em linguagem C. No jogo, o jogador gira o tambor de um revólver virtual e puxa o gatilho. O objetivo é sobreviver o maior tempo possível, evitando a câmara do revólver que contém a bala.
 
